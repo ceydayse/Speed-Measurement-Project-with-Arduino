@@ -29,10 +29,13 @@ F1A12 15698 IC206 Switch
 
 # CODE
 
+```
 #include <SPI.h>
 #include<LiquidCrystal.h> //LCD Display library
 #include<virtuabotixRTC.h>
 #include <SD.h>
+```
+```
 LiquidCrystal lcd(8, 7, 6, 5, 4, 3); // RS, E, D4, D5, D6, D7 pin connections of LCD Screen
 const byte LM393=2; //FC-33 Speed sensor data pin (Interrupt Pin, INT 0)
 unsigned int rpm=0; //revolutions per minute
@@ -158,7 +161,8 @@ myRTC.updateTime(); //Read time from RTC
     rpm=(60UL*1000/encoder)/(millis()-timeold)*sayac; //Calculation of RPM
     hiz=rpm*3.1416*tekerlek*60/1000000; //Calculation of speed
     timeold=millis();
-
+```
+```
   ///lcd clock info
   
   lcd.clear();
@@ -195,4 +199,4 @@ if (digitalRead(LM393) && (micros()-debounce>500) && digitalRead(LM393)){ //Capa
 debounce = micros();
 sayac++;} //Counting operation
 else ;}
-
+```
