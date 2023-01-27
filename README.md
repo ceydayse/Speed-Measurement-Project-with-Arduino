@@ -8,13 +8,21 @@ Velocity Measurement Project with Arduino is the project I prepared for my micro
 # Materials
 
 DS1302 RTC Modül
+
 RLD0D01-0001 Sandisk Ultra 16Gb Class 10 98MB/s MicroSD
+
 G7B2+USB1 11605 Arduino UNO R3 (Klon)
+
 C5G8 17760 LCD Display 2x16
+
 G1C1 12900 Breadboard
+
 P1B2 11959 40 Pin Ayrılabilen Dişi-Erkek M-F Jumper Kablo-200
+
 L2C12+F5A1 12445 10K Potansiyometre - WH148
+
 P1D2 12701 6V 250 Rpm Motor ve Tekerlek Seti
+
 F3A15 20595 Disk Enkoder
 C3A9 16373 Motor Hız Sensörü
 A3D10 18799 Power-Xtra 6F22/9V Size Zinc Manganez Pil - Tekli
