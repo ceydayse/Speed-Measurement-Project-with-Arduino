@@ -6,6 +6,7 @@ https://www.brainy-bits.com/post/how-to-use-a-speed-sensor-with-arduino
 Velocity Measurement Project with Arduino is the project I prepared for my microprocessor course. In this project, a simulation design is presented in which the RPM (Revolutions Per Minute) of a DC motor thought to belong to the vehicle is measured, this information is processed by Arduino UNO and the speed calculation is made by including the diameter of the wheel connected to the motor. FC-33 (LM393) infrared speed sensor is used to measure the RPM of the motor. In addition, we can increase or decrease the speed by controlling the speed of the motor with the potentiometer used in the simulation, and we can see the RPM and speed information thanks to the LCD screen. In this context, a small sample of a vehicle whose speed will be measured has been modeled in the project.
 
 # Materials
+
 DS1302 RTC Modül
 RLD0D01-0001 Sandisk Ultra 16Gb Class 10 98MB/s MicroSD
 G7B2+USB1 11605 Arduino UNO R3 (Klon)
