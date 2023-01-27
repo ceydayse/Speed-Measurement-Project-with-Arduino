@@ -24,10 +24,15 @@ L2C12+F5A1 12445 10K Potansiyometre - WH148
 P1D2 12701 6V 250 Rpm Motor ve Tekerlek Seti
 
 F3A15 20595 Disk Enkoder
+
 C3A9 16373 Motor Hız Sensörü
+
 A3D10 18799 Power-Xtra 6F22/9V Size Zinc Manganez Pil - Tekli
+
 L2C12+F5A1 12445 10K Potansiyometre - WH148
+
 F5F12 11501 L293D Motor Sürücü - DIP16
+
 F1A12 15698 IC206 Switch
 
 # Fritzing Chart
